@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+}
+    
+    #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+ 
+    #myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float:left;
+    border-right:0px solid black;
+}
+    
+    #myUL li a {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+    
+    #myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+    
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+    .image{
+        width: 100%;
+        height: 200px;
+    }
+    .imagebox{
+        width: 40px;
+        height: 40px;
+        padding:1px 0px;
+    }
+
+li a:hover:not(.active) {
+    color: salmon;
+}
+
+
+ ul.link {
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color:lightcyan;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;}
+
+.form-container {
+    width:70%px;
+    left:50%;
+    margin-left:0;
+}
+    td{
+        width: 150px;
+        height: 210px;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+    
+    <img src="image/online/logo.jpg" style="width:100%" height="275">
+
+<div><ul >
+    
+    <li style="float:left ;padding-left: 0 ;font-style: normal;">
+        <a href="Onlineshop.html" style="font-style: normal">Home</a></li>
+     
+    <li ><a href="Bag.html">Bags</a></li>
+    <li ><a href="Shoe.html">Shoes</a></li>
+    <li ><a href="Shirt.html">Shirts</a></li>
+    
+</ul></div>
+    
+    
+
+
+    
+     <h4>Pedro</h4>
+     <div><table style="width: 100%">
+        <thead >
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="dropdown">
+                            <img src="image/online/pedro_bag/bag1.jpg" class="w3-hover-opacity" alt="adidas" width="150" height="200"><div style="color:black">150$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/pedro_bag/bag2.jpg"  class="w3-hover-opacity" alt="charlie&kiet" width="150" height="200"><div style="color:black">120$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                             <a href="videoShowing.html"><img src="image/online/pedro_bag/bag3.jpg" class="w3-hover-opacity" alt="Nike" width="150" height="200"></a><div style="color:black">190$</div>
+                        </div>
+                    </td>
+                   <td>
+                        <div class="dropdown">
+                              <img src="image/online/pedro_bag/bag4.jpg" class="w3-hover-opacity" alt="pedro" width="150" height="200"><div style="color:black">55$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/pedro_bag/bag5.jpg" class="w3-hover-opacity" alt="LYN" width="150" height="200"><div style="color:black">45$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/pedro_bag/bag6.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                     <td>
+                        <div class="dropdown">
+                              <img src="image/online/pedro_bag/bag7.jpg" class="w3-hover-opacity" alt="Dior" width="150" height="200"><div style="color:black">70$</div>
+                        </div>
+                    </td>
+                </tr>
+                
+                
+                
+                
+     <div><table style="width: 100%">
+         <h4>Charlie Kiet</h4>
+        <thead >
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="dropdown">
+                            <img src="image/online/charlie&keit_bag/bag1.jpg" class="w3-hover-opacity" alt="adidas" width="150" height="200"><div style="color:black">150$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/charlie&keit_bag/bag2.jpg"  class="w3-hover-opacity" alt="charlie&kiet" width="150" height="200"><div style="color:black">120$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                             <a href="videoShowing.html"><img src="image/online/charlie&keit_bag/bag3.jpg" class="w3-hover-opacity" alt="Nike" width="150" height="200"></a><div style="color:black">190$</div>
+                        </div>
+                    </td>
+                   <td>
+                        <div class="dropdown">
+                              <img src="image/online/charlie&keit_bag/bag4.jpg" class="w3-hover-opacity" alt="pedro" width="150" height="200"><div style="color:black">55$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/charlie&keit_bag/bag5.jpg" class="w3-hover-opacity" alt="LYN" width="150" height="200"><div style="color:black">45$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/charlie&keit_bag/bag6.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                     <td>
+                        <div class="dropdown">
+                              <img src="image/online/charlie&keit_bag/bag7.jpg" class="w3-hover-opacity" alt="Dior" width="150" height="200"><div style="color:black">70$</div>
+                        </div>
+                    </td>
+                </tr>
+                
+                
+        <div><table style="width: 100%">
+         <h4>MK</h4>
+        <thead >
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="dropdown">
+                            <img src="image/online/MK_bag/bag1.jpg" class="w3-hover-opacity" alt="adidas" width="150" height="200"><div style="color:black">150$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/MK_bag/bag2.jpg"  class="w3-hover-opacity" alt="charlie&kiet" width="150" height="200"><div style="color:black">120$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                             <a href="videoShowing.html"><img src="image/online/MK_bag/bag3.jpg" class="w3-hover-opacity" alt="Nike" width="150" height="200"></a><div style="color:black">190$</div>
+                        </div>
+                    </td>
+                   <td>
+                        <div class="dropdown">
+                              <img src="image/online/MK_bag/bag4.jpg" class="w3-hover-opacity" alt="pedro" width="150" height="200"><div style="color:black">55$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/MK_bag/bag5.jpg" class="w3-hover-opacity" alt="LYN" width="150" height="200"><div style="color:black">45$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/MK_bag/bag6.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/MK_bag/bag7.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                    
+                    
+                    
+        <div><table style="width: 100%">
+         <h4>Dior</h4>
+        <thead >
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="dropdown">
+                            <img src="image/online/dior_bag/bag1.jpg" class="w3-hover-opacity" alt="adidas" width="150" height="200"><div style="color:black">150$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/dior_bag/bag2.jpg"  class="w3-hover-opacity" alt="charlie&kiet" width="150" height="200"><div style="color:black">120$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                             <a href="videoShowing.html"><img src="image/online/dior_bag/bag3.jpg" class="w3-hover-opacity" alt="Nike" width="150" height="200"></a><div style="color:black">190$</div>
+                        </div>
+                    </td>
+                   <td>
+                        <div class="dropdown">
+                              <img src="image/online/dior_bag/bag4.jpg" class="w3-hover-opacity" alt="pedro" width="150" height="200"><div style="color:black">55$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/dior_bag/bag5.jpg" class="w3-hover-opacity" alt="LYN" width="150" height="200"><div style="color:black">45$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/dior_bag/bag6.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/dior_bag/bag7.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                </tr>
+       <div><table style="width: 100%">
+         <h4>LYN</h4>
+        <thead >
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="dropdown">
+                            <img src="image/online/LYN_bag/bag1.png" class="w3-hover-opacity" alt="adidas" width="150" height="200"><div style="color:black">150$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/LYN_bag/bag2.jpg"  class="w3-hover-opacity" alt="charlie&kiet" width="150" height="200"><div style="color:black">120$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                             <a href="videoShowing.html"><img src="image/online/MK_bag/bag3.jpg" class="w3-hover-opacity" alt="Nike" width="150" height="200"></a><div style="color:black">190$</div>
+                        </div>
+                    </td>
+                   <td>
+                        <div class="dropdown">
+                              <img src="image/online/LYN_bag/bag4.jpg" class="w3-hover-opacity" alt="pedro" width="150" height="200"><div style="color:black">55$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/LYN_bag/bag5.jpg" class="w3-hover-opacity" alt="LYN" width="150" height="200"><div style="color:black">45$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/LYN_bag/bag6.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                              <img src="image/online/LYN_bag/bag7.jpg" class="w3-hover-opacity" alt="MK" width="150" height="200"><div style="color:black">75$</div>
+                        </div>
+                    </td>
+
+    
+   
+     <div><table style="width: 100%">
+        <thead >
+            <tbody>
+                <tr>
+                    
+                  
+                </tr>
+        </tbody>
+    </table></div>
+
+<footer>
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p> Location: Phnom Penh, Cambodia</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>Tel: +855 96 954 78 85</p>
+        <img style="float:right" src="image/online/thank%20u%203.gif">
+    </div>
+    <div>
+    <i class="fa fa-facebook"></i>
+    <p><a href="mailto:support@company.com">facebook: Shop with Star</a></p>
+    </div>
+     <div>
+    <i class="fa fa-instagram"></i>
+    <p><a href="mailto:support@company.com">Instagram: Shop_with_Star</a></p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">Email: online@gmail.com</a></p>
+    </div>
+
+  </div>
+
+  
+</footer>
+    
+   <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+    </script>
+    
+</body>
+</html>
